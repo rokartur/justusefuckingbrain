@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Just Use Fucking Brain</title>
+    <meta name="description" content="A manifesto for modern web development. Stop coupling. Start thinking. Decouple your frontend from backend.">
+    <meta name="keywords" content="web development, manifesto, architecture, decouple, frontend, backend, fullstack, software engineering, just use fucking brain">
+    <meta name="author" content="Just Use Fucking Brain">
+    <meta name="theme-color" content="#0a0a0a">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🧠</text></svg>">
+    <link rel="canonical" href="https://justfuckingusebrain.com">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://justfuckingusebrain.com/">
+    <meta property="og:title" content="Just Use Fucking Brain">
+    <meta property="og:description" content="Modern web development is broken. Stop overengineering. Decouple everything. Use the right tools. Start thinking.">
+    <meta property="og:image" content="https://justfuckingusebrain.com/og.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://justfuckingusebrain.com/">
+    <meta property="twitter:title" content="Just Use Fucking Brain">
+    <meta property="twitter:description" content="Modern web development is broken. Stop overengineering. Decouple everything. Use the right tools. Start thinking.">
+    <meta property="twitter:image" content="https://justfuckingusebrain.com/og.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        main: '#0a0a0a',
+                        light: '#ededed',
+                        accent: '#ff3333',
+                        dim: '#888',
+                    },
+                    fontFamily: {
+                        serif: ['"Instrument Serif"', 'serif'],
+                        sans: ['"Inter"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-main text-light font-sans antialiased selection:bg-accent selection:text-white">
+    <div class="max-w-4xl mx-auto px-5 md:px-8">
+        <header class="min-h-[60vh] md:h-[90vh] flex flex-col justify-center items-start py-12 md:py-0">
+            <h1 class="font-serif text-[clamp(3.5rem,14vw,9rem)] leading-[0.85] md:leading-[0.9] -tracking-[0.03em]">
+                Just Fucking <br>
+                Use <span class="text-accent italic">Brain</span>.
+            </h1>
+        </header>
+
+        <section class="mb-32">
+            <p class="text-xl md:text-2xl text-gray-300 max-w-prose leading-relaxed mb-6">
+                We are drowning in tools, frameworks, and complexities we created for ourselves. 
+                Web development has become a contest of who can overengineer the simplest solution.
+            </p>
+            <p class="text-xl md:text-2xl text-gray-300 max-w-prose leading-relaxed">
+                It's time to stop. It's time to decouple. It's time to think.
+            </p>
+        </section>
+
+        <section class="mb-32">
+            <h2 class="font-serif text-5xl md:text-6xl mb-8 border-t border-neutral-800 pt-8">The Core Philosophy</h2>
+            <p class="text-lg text-dim mb-12 max-w-prose">
+                Modern web development isn't about using the newest shiny toy. It's about architecture that makes sense.
+                It's about separation of concerns. The days of monolithic giants rendering HTML on the server are numbered.
+            </p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+                <div class="border border-neutral-800 p-8 hover:border-light hover:-translate-y-1 transition-all duration-300 group">
+                    <h3 class="font-serif text-3xl mb-4 group-hover:text-accent transition-colors">Decouple Everything</h3>
+                    <p class="text-dim leading-relaxed">
+                        Your backend should be an API. Your frontend should be a consumer. 
+                        Never let them know too much about each other.
+                    </p>
+                </div>
+                <div class="border border-neutral-800 p-8 hover:border-light hover:-translate-y-1 transition-all duration-300 group">
+                    <h3 class="font-serif text-3xl mb-4 group-hover:text-accent transition-colors">Use The Right Tool</h3>
+                    <p class="text-dim leading-relaxed">
+                        Don't use a sledgehammer to crack a nut. 
+                        Don't use a full-stack framework for a landing page. 
+                    </p>
+                </div>
+                <div class="border border-neutral-800 p-8 hover:border-light hover:-translate-y-1 transition-all duration-300 group">
+                    <h3 class="font-serif text-3xl mb-4 group-hover:text-accent transition-colors">Own Your Stack</h3>
+                    <p class="text-dim leading-relaxed">
+                        Stop relying on "magic". Understand how HTTP works. 
+                        Understand how the browser renders. Ignorance is fatal.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="border-t border-neutral-800 py-16 text-center font-serif italic text-dim text-lg">
+            &copy; 2025 JustUseFuckingBrain. Think before you code.
+        </footer>
+    </div>
+</body>
+</html>
