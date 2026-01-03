@@ -19,4 +19,4 @@ Stop relying on "magic". Understand how HTTP works. Understand how the browser r
 
 ---
 
-&copy; 2025 JustUseFuckingBrain. **Think before you code.**
+&copy; 2025 JustFuckingUseBrain. **Think before you code.**
